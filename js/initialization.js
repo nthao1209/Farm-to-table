@@ -17,6 +17,4 @@ function createAdminAccount() {
         localStorage.setItem('accounts', JSON.stringify(accounts));
     }
 }
-
-window.onload = createProduct();
 window.onload = createAdminAccount();
