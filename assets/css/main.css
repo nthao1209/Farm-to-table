@@ -2311,3 +2311,21 @@ input[type=number] {
     display: none;
 }
 
+.form-group-role {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.form-group-role .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.role-options {
+    display: flex;
+    gap: 20px;
+}
+.role-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
